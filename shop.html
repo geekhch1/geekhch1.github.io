@@ -19,82 +19,84 @@
     <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
     <!-- <script type="text/javascript" src="js/core.js"></script> -->
     <script type="text/javascript" src="js/modernizr.js"></script>
-<style>
-</style>
+    <style>
+    </style>
 </head>
 
 
 <body>
 
     <!-- \\ Begin Holder \\ -->
+    <div id="headline">
+    </div>
     <div class="DesignHolder">
 
         <!-- \\ Begin Frame \\ -->
         <header class="header">
             <div id="mask">
-            <div class="Center">
-                <div class="Top_Bar">
+                <div class="Center">
+                    <div class="Top_Bar">
 
-                    <div class="site-logo">
+                        <div class="site-logo">
 
-                        <a href="#">
+                            <a href="#">
+                                <figure>
+                                    <img src="img/hc.png" alt="Image">
+                                </figure>
+                            </a>
+
+                        </div>
+
+                        <!-- \\ Begin Navigation \\ -->
+                        <nav class="Navigation">
+                            <ul>
+                                <li class="active">
+                                    <a href="index.html">
+                                        <span>主页</span>
+                                    </a>
+                                </li>
+                                <li class="gap">
+                                    <a href="shop.html">
+                                        <span>主营商品</span>
+                                    </a>
+                                </li>
+                                <li class="gap gap1">
+                                    <a href="contact.html">
+                                        <span>联系我们</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+
                             <figure>
-                                <img src="img/hc.png" alt="Image">
+                                <img src="img/triangle-img.png" alt="Image" class="triangle">
                             </figure>
-                        </a>
 
+                        </nav>
+                        <!-- // End Navigation // -->
+
+                        <div class="clear"></div>
                     </div>
-
-                    <!-- \\ Begin Navigation \\ -->
-                    <nav class="Navigation">
-                        <ul>
-                            <li class="active">
-                                <a href="index.html">
-                                    <span>主页</span>
-                                </a>
-                            </li>
-                            <li class="gap">
-                                <a href="shop.html">
-                                    <span>主营商品</span>
-                                </a>
-                            </li>
-                            <li class="gap gap1">
-                                <a href="contact.html">
-                                    <span>联系我们</span>
-                                </a>
-                            </li>
-
-                        </ul>
-
-                        <figure>
-                            <img src="img/triangle-img.png" alt="Image" class="triangle">
-                        </figure>
-
-                    </nav>
-                    <!-- // End Navigation // -->
-
-                    <div class="clear"></div>
+                    <!--  -->
                 </div>
-                <!--  -->
-            </div>
             </div>
         </header>
-                                <div class="LayoutFrame">
-                                    <div id="Container">
-                        
-                                        <div class="Middle_sec" id="About">
-                                           <div class="Center" id="shop"></div> 
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-        
-        <div id="footer"></div>
+        <div class="LayoutFrame">
+            <div id="Container">
+
+                <div class="Middle_sec" id="About">
+                    <div class="Center" id="shop"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer"></div>
     </div>
     <script>
         $("#footer").load("frame/footer.html");
         $("#top_bar").load("frame/top_bar.html");
         $("#shop").load("frame/items.html");
-
+        $("#headline").load("frame/headline.html");
     </script>
 </body>

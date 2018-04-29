@@ -102,7 +102,7 @@ body {
 
 	/* <<< Middle Section >>> */
 	.Middle_sec { width: 100%; overflow: hidden; background: rgb(217,235,241) url(#) top center no-repeat; }
-	.Middle_sec .Center { max-width: 1098px; margin: auto; overflow: hidden; }
+	.Middle_sec .Center { max-width: 1098px; margin: auto; padding: 0px; overflow: hidden; }
 	/* .Middle_sec #Leftside { width: 51.00%; float: left; position: relative; }
 	.Middle_sec #Leftside .Client { width: 374px; text-align: center; padding: 139px 141px 139px 142px; background: url(../img/Client-bg.png) top center no-repeat; margin-top: -1px; }
 	.Middle_sec #Leftside .Client img { margin: auto auto 16px; border-radius: 50%; }
@@ -117,9 +117,9 @@ body {
 	.Middle_sec #Leftside .Client2 p { font-size: 14px; color: #fff; font-family: 'Open Sans', sans-serif; font-style:italic;}
 	.Middle_sec #Leftside .Client2 h3 { font-size: 14px; color: #fff; margin: 0px; font-family: 'Open Sans', sans-serif; text-transform:uppercase; font-weight: 600; font-style:italic; } */
 
-	.Middle_sec #Rightside { padding-top: 0px;  width: 100%; float: none; }
+	.Middle_sec #Rightside { padding-top: 0px;  width: 100%; float: none; padding: 0px; margin: 0px;}
 	.Middle_sec #Rightside ul { list-style: none; margin: 0px auto; position: relative; left:50%; }
-	.Middle_sec #Rightside li { float: left; padding: 0px 0px 0px 0px; margin: 0px 30px 30px 30px; position: relative; right: 50%;}
+	.Middle_sec #Rightside li { float: left; padding: 0px 0px 0px 0px; margin: 0px 60px 30px 50px; position: relative; right: 50%;}
 	.Middle_sec #Rightside li:last-child { padding-bottom: 0px; }
 	.Middle_sec #Rightside li .Industrial { padding-top: 4px;  float: left; }
 	/* .Middle_sec #Rightside li .Information { width: 54.5%; float: right; }

@@ -166,7 +166,3 @@ body {
 	footer p { font-size: 13px; color: #bbbcbc; margin: 0px;  font-family: 'Open Sans', sans-serif; font-weight: 400; }
 	footer a { color: #fff; text-decoration: none; }
 
-	.headline { overflow: hidden; width: 100%; background: #222a36;}
-	.headline .Center { padding: 35px 0px 35px 0px;  max-width: 1180px; margin: auto; text-align: center; }
-	.headline p { font-size: 13px; color: #bbbcbc; margin: 0px;  font-family: 'Open Sans', sans-serif; font-weight: 400; }
-	.headline a { color: #fff; text-decoration: none; }
